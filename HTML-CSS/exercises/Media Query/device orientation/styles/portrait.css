@@ -1,0 +1,7 @@
+body {
+    background-image: url(../images/cev-portrait.jpg);
+    background-size: 80vh;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 100%;
+}

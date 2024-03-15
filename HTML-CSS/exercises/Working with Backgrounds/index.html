@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Working with Background</title>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+
+    <body>
+    <header>
+     <h1>Backgrounds</h1>   
+    </header>
+    <hr>
+    <main>
+     <h2 class="p">We can create 3 types of backgrounds, they are: color, gradient and image.</h2>
+     <div id="color"></div>
+     <div id="degradient"></div>   
+     <div id="image"></div>
+     <h2 class="p">And we can modify our background page too using one of those options.</h2>
+     <nav>
+     <a href="image.html">image</a>
+      <a href="color.html">color</a> 
+      <a href="gradient.html">gradient</a>
+    </nav>
+    <h2  class="p">We can create repeating images too in our background.</h2>
+    <a href="repeat.html">Repeating Background</a>
+    <h2 class="p">We can config our repeat style too, if you use repeat x, will repeat to left, and if you use repeat y, will repeat to top.</h2>
+    <nav>
+     <a href="repeat x.html">repeat x</a>
+     <a href="repeat y.html">repeat y</a>     
+    </nav>
+    <hr>
+    <h1>Background Positions:</h1>
+    <p>We can set our background position in many ways, they are: left, right, top and bottom. We can commbine those togethher for get a specific position.</p>
+     <div class="imgbox" id="img1">left top</div>
+     <div class="imgbox" id="img2">left center</div>
+     <div class="imgbox" id="img3">right bottom</div>
+     <div class="imgbox" id="img4">center center</div>
+     <h3>Train the positions here with a chibi:</h3>
+     <a href="positions.html">Positions</a>
+     <h3>Airplane Background for understand it and train it too.</h3>
+     <a href="airplaneimg.html">Airplane image</a>
+     <hr>
+     <h1>Background configs</h1>
+    <h2>Size:</h2>
+     <ul>
+      <li>"Background-size: cover;" Cover the screen 100% with the image</li>  
+      <li>"Background-size: auto;" fits the image automatically on your screen</li>  
+      <li>"Background-size: contain;" show 100% of the image on your screen, but dont fit it all/li>
+      <li>"Background-size: 100% 100%;" show 100% of the image on your screen and fit it.</li>
+     </ul>
+     <h2>Attachment:</h2>
+     <ul>
+        <li>"Background-attachment: scroll;" scroll the image together with the content.</li>
+        <li>"Background-attachment: fixed;" fits perfectly with the website.</li>
+     </ul>
+     <hr>
+     <h1>Shorthand:</h1>
+     <p style="color: red;">background: color > image > position > repeat > attachment</p>
+     <p style="color: red;">SIZE DO NOT WORK ON SHORTHAND</p>
+     <h2>Example:</h2>
+     <p>"Background: black url(image.png) center center no-repeat fixed; <br> Background-size: cover;"</p>
+     <hr>
+     <h1>Vertical Centralization of Boxes</h1>
+     <h2>Position Absolute:</h2>
+     <p>With the css command "position: relative;" you can set in a box his cordenates using the commands "top" and "left", then with that, you can fit your position of your box perfectly</p>
+     <p style="color: red;">THIS COMMAND ONLY WORKS IF TTHE POSITION OF THE ELEMENT IS RELATIVE.</p>
+     <h2>Transform:</h2>
+     <ul>
+        <li>"transform: translate(+right, +bottom/-top, -left);" moves the content for other place</li>
+     </ul>
+     <a href="VCB.html">Example</a>
+    </main>
+    </body>
+
+</html>

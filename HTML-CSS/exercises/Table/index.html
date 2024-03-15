@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Table</title>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+
+    <body>
+    <h1>Table Hierarchy:</h1>
+    <div class="hierarchy">
+    <ol>
+     <li>Table &lt;table&gt;</li>
+     <li>Caption &lt;caption&gt;</li> 
+     <li>Table Row &lt;tr&gt;</li>
+     <li>Table Header &lt;th&gt;</li>  
+     <li>Table Data &lt;td&gt;</li>  
+    </ol>
+    </div>
+     <hr>  
+   <h1>First Table:</h1>
+   <table class="tableft">
+    <caption class="tcaption">MMORPG</caption>
+    <tr class="trft">
+     <th class="thft" scope="col">Warrior</th> 
+     <th class="thft" scope="col">Assasin</th> 
+     <th class="thft" scope="col">Hunter</th> 
+    </tr> 
+    <tr class="trft">
+      <td>Longsword</td>
+       <td>Dagger</td>
+        <td>Axe</td>
+     </tr>
+     <tr class="trft">
+      <td>Greatsword</td>
+       <td>Kunai</td>
+      <td>Long axe</td>
+     </tr>
+     <tr class="trft">
+      <td>Hammer</td>
+       <td>Knife</td>
+      <td>Spear</td>
+     </tr>
+     <tr class="trft">
+      <td>Bomb </td>
+       <td>Shuriken</td>
+      <td>Bow</td>
+     </tr>
+     </table>
+     <hr> 
+     <h1>Big Table</h1>
+     <h2>Anatomy for big tables:</h2>
+     <div class="anatomybigt">
+      <h3>TABLE:</h3>
+     <ol>
+      <li class="caption">CAPTION</li>
+     </ol>
+      <ol>
+      <li>THEAD:</li>
+      <ul>
+      <li>TR</li>
+      <li>TD</li>
+      <li>TH</li>
+     </ul> 
+     </ol>
+     <ol>
+     <li>TBODY:</li>
+     <ul>
+      <li>TR</li>
+      <li>TD</li>
+      <li>TH</li>
+     </ul> 
+     </ol>
+     <ol>
+     <li>TFOOT:</li>
+     <ul>
+      <li>TR</li>
+      <li>TD</li>
+      <li>TH</li>
+     </ul> 
+     </ol>
+      </div>
+      <div class="scope">
+        <h3>SCOPE:</h3>
+       <p>TH = scope="col"</p>
+       <p>TD = scope="row"</p> 
+      </div>
+      <h2>FIRST BIG TABLE:</h2>
+      <table>
+         <caption class="tcaption">Random</caption>
+        <thead>
+        <tr>
+          <th class="thdbig" scope="col">Country</th>
+          <th class="thdbig" scope="col">Food</th>
+        </tr>
+      </thead>
+      <tbody>
+         <tr>
+          <td class="tmdbig"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg/1200px-Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg.png" alt="eua"></td>
+          <td class="emoji">&#x1F354;</td>
+        <tr>
+          <td class="tmdbig"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARMAAAC3CAMAAAAGjUrGAAAAh1BMVEX///+8AC27ACm4AA+5ABi7ACe4ABW6ACS4ABK7ACi6ACC6ACK6AB65ABr99fe3AAu3AAD35OfFOFDOYXLoucDjqrPqwMf13uLCLEfScH/blJ7msrvKUWXz2t7z1dvwzNPWf43JS1+/Ezfai5f78PLho63GQFfVfInNWm2/DTXBJEHRbn3sxszHSQTJAAAEQ0lEQVR4nO3diXLaMBAG4NryIXxigg8IYHAIuXj/5yuUpiWxGZDRMev83wNkvDuKtJYW+dcvAAAAAAAAAAAAAAAAAAAAAAAAADhKylW9L4piX6/KxPTDGJes8vXiPU0Z557ncc7S9H2xzlc/NjP1085nTuDa1jnbDRzm7+Yr04+nX/Hg8Mi1LrDdiIez6U8aLsuXmIeX8vEvL6HHZ0vTj6pJsUmDawn5K0g3henH1aCo2MV/mQ4uq4aelbpiI4GMHI1YVZt+bIWy17FoRv5kZfyamX50VebO1Yn1gtCZm354JbLK65mRI68a4FDJU5Gptc1Nc9MhyDZL78rIUTozHYRUySS+OyWWFU8GVNhmli8hJdbhrwxmUlnGfVbgLqNoIMX+0rOvR3sj2xtEUspYXkoOSYlL0wHdL4tkpuSQlID8nJI095UlbW5DffWZ9C3nLwsnpoO6z4eMuuS7mHTxlt9fvXahXOaXXElKLIvTXXwq2fPrJ7cyHVpfT46ilFiW82Q6uH5KNZPJSUqzStnIefHr5m9Mh9fHVOUwOQwUitv5b3Jr+u/sxnSA4vJ7dl9v4dErUtSOkiPbdIiilA8TggPlXcM4eTcdpJg9U56SQ4W/Nx2mkAeVtckn/8F0mCK26qr6c/HWdKACnvXkxKE0y25UvRB/5RIq8BO1Zf1/Yzpbs1P1xcmJNzUd6s1m8jemu4V0dmZt9QXbiU2mvs90FGwnjMrWkrbphNCEMo+05SSi0uempbA/IVPeV7LaTa4bETnUSCxdy85h4bFoVG2ZqtO/LpzGwrPUtxQfFmMafUu11nFCoxdfY3lyKFBoHPM86tk8OXEeTYd7k1xFH87FnNDYVtKakxg5oZoTzCdtetcdGi/Ge631CY1zr5XWOpbG79XxvtOG9+IOlcacENk/wT5bB+zHtmHfvg3nOx1G2iZZMueAOC/ugL6Cti36T9oWmvqUFqYDFZCjn61FU9+jQ6nvEf2xHbT0UTMa+0n/oN++Db/L6OCrHii2bzpEYc/Kf+f1bDpEcYp3IO030wH2MFW79DA6rzpndioLfHdnOrxe1P4OnegtDrivoAPutWhTdiJI5PSvE+7J6YD7lDrg3q225E36/WxvhDZhu0m/xy8iPL9+knzfY0S0WPtqKTEptkOjv/6qMpQ1p7jhIEbJUdbIWX3CZgBzyadkJ+PVx9mRX3G+eJFwb/mL6SBkexT6dEiby2h0TAvJJnd9B2EyoKnkzNzrezroe1T61oRli3GfUsUeL4Y5SE72DRfNis0bYmegwh4bLvSdJt4McG5tme7S4MbBEqQ7kkcWPSzXwfXvvlmhF78M5O3mNsVHzKPL9xqMAh5//JQhcqZ+mkTMCb4dttt+4LBwsh76vHrRts7Xr5UzTtmf742ydOxUrz/5e6P/bctVXRRFvSpJNagBAAAAAAAAAAAAAAAAAAAAAAAAqPQbnZ1LfskQUQkAAAAASUVORK5CYII=" alt="japan"></td>
+          <td class="emoji">&#x1F363;</td>
+        </tr>
+        <tr>
+          <th class="tfth">Gun</th>
+          <th class="tfth">Type</th>
+        </tr>
+        <tr>
+          <td class="tftd"><img src="images/Gun.png" alt="Gun"></td>
+          <td class="tftd"><img src="images/M4A1.png" alt="M4A1"></td>
+        </tr>
+        <tr>
+          <td class="emoji">⚔️</td>
+          <td class="tftd"><img src="images/Katana.png" alt="Katana"></td>
+        </tr>        
+      </tbody>
+      <tfoot>
+      <tr>
+      <th class="tfth">Total:</th>
+      <th class="tfth">4</th>
+      </tr>
+      </tfoot>
+      </table>
+      <hr>
+     <h1>Striped Effect:</h1>
+     <p>For create a Striped effect on a table on or other things, we need to use the pseudoclass: "nth-child()"</p>
+     <ul>
+       <li>"((amount))" set only one column</li> 
+       <li>"((amount)n)" set a order for how much coluns get striped</li> 
+       <li>"(odd)/2n-1" will stripe columns in a odd order</li> 
+       <li>"(even)/2n" will stripe columns in a even order</li> 
+     </ul>
+     <h2>Example:</h2>
+     <table class="stripedtable">
+        <caption>Striped Table</caption>
+        <thead>
+            <tr>
+                <th>Color</th>
+                <th>Points</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="color: gold;">Gold</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td style="color: blue;">Blue</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td style="color: red;">Red</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td style="color: green;">Green</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td style="color: purple;">Purple</td>
+                <td>1</td>
+            </tr>
+        </tbody>
+        <tfoot>
+         <tr>
+            <th>Total:</th>
+            <th>11</th>
+         </tr>   
+        </tfoot>
+     </table>
+     <hr>
+     <h1>Fixed Header in Big Tables</h1>
+     <p style="color: red;">ONLY WORK IN BIG TABLES OR IF HAVE A LOT OF INFORMATION.</p>
+     <p>For we make our table fixed we need the css command "position: sticky;" and "top: -1px;", dont forget to use the same background color as the table. </p>
+     <table class="tchess">
+        <caption>Chess Pieces</caption>
+        <thead>
+            <tr>
+            <th>Pieces</th>
+            <th>Value</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>King</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Queen</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>Bishop</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>Knight</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>Rook</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>Pawn</td>
+                <td>1</td>
+            </tr>
+        </tbody>
+        <tfoot>
+         <tr>
+            <th>Total:</th>
+            <th>21</th>
+         </tr>   
+        </tfoot>
+     </table>
+     <hr>
+    <h1>TD/TH Merge</h1>
+    <p>its when a TD or TH is missing out, and you just merge one for occup his space using the css command "colspan=(amount of lines)" <br> and "rowspan=(amount of coluns)".</p>
+     <h2>Example:</h2>
+    <table class="trpg">
+     </thead>
+     <tbody>
+        <tr style="color: red;">
+            <td>Warrior</td>
+            <td colspan="2">Sword</td>
+        </tr>
+        <tr style="color: green;">
+            <td rowspan="2">Rogue</td>
+            <td>Dagger</td>
+            <td rowspan="3">Leather</td>
+        </tr>
+        <tr style="color: blue;">
+            <td>Staff</td>
+        </tr>
+        <tr style="color: yellow;">
+            <td>Paladin</td>
+            <td>Hammer</td>
+        </tr>
+     </tbody>
+    </table>
+    <hr>
+    <h1>Highlighting tables with colgroup:</h1>
+    <p>For highlight a table we need the tag &lt;colgroup&gt;, then just create &lt;col&gt; and class it ordered and modify it on css.</p>
+    <table class="hight">
+    <colgroup>
+    <col style="color: green;">
+    <col id="age">
+    </colgroup>     
+   <caption>Highlight Test</caption>
+     <tr>
+        <th class="hightth" scope="col">Name</th>
+        <th  class="hightth" scope="col">Age</th>
+     </tr>
+     <tr>
+        <td class="highttd">Fulano</td>
+        <td class="highttd">18</td>
+     </tr>
+     <tr>
+        <td class="highttd">Ciclana</td>
+        <td class="highttd">27</td>
+     </tr>
+     <tr>
+        <td class="highttd">Beltrano</td>
+        <td class="highttd">32</td>
+     </tr>
+     <tr>
+        <td class="highttd">Pedrinho</td>
+        <td class="highttd">5</td>
+     </tr>
+     <tr>
+        <td class="highttd">Joaozinho</td>
+        <td class="highttd">10</td>
+     </tr>   
+    </table>
+    <hr>
+    <img src="https://e1.pxfuel.com/desktop-wallpaper/219/643/desktop-wallpaper-thats-all-folks.jpg" alt="That's all Folks!" style="display: block; margin: auto; width: 800px; height: 800px;">
+    </body>
+
+</html>

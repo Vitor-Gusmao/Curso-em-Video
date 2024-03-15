@@ -1,0 +1,14 @@
+body {
+    height: 95vh;
+    border: 10px solid grey;
+    background-image: url("image/chibi.png");
+    background-color: darkblue;
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: center left;
+}
+
+a {
+    font-size: 30px;
+    color: yellow;
+}

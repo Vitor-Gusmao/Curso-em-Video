@@ -1,0 +1,24 @@
+body {
+    background-image: url("https://i.pinimg.com/736x/56/2f/59/562f59554ea6fc56d51032bb84ee80ea.jpg");
+    color: white;
+    text-align: center;
+    background-repeat: repeat-x;
+    background-size: 100px 100px;
+    background-color: black;
+}
+
+h1 {
+    font-size: 50px;   
+}
+
+a {
+    font-size: 50px;
+    color: lightblue;
+    background-color: gray;
+    border: solid 10px darkblue;
+    font-weight: bold;
+}
+
+nav {
+    margin-top: 600px; 
+}

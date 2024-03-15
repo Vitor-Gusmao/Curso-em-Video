@@ -1,0 +1,17 @@
+body {
+    background-image: linear-gradient(to top, #3217ea, #2511cb, #190bab, #0c068c, #00006c);
+    color: lightblue;
+    font-size: 30px;
+}
+
+h1 {
+    font-size: 50px;
+    color: blue;
+    text-align: center;
+    text-shadow: 10px 10px 20px black;
+}
+
+h2.water {
+    font-size: 40px;
+    color: aqua;
+}

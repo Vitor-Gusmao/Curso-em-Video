@@ -1,0 +1,33 @@
+body {
+    background-color: black;
+    color: white;
+    font-size: 30px;
+}
+
+h1 {
+    color: yellow;
+    font-size: 45px;
+}
+
+h2, h3 {
+    color: yellow;
+}
+
+iframe {
+    width: 1000px;
+    height: 600px;
+    border: 5px solid yellow;
+}
+
+div {
+    margin-top: 30px;
+}
+
+a {
+    color: yellow;
+}
+
+.ifwork, .ifnwork {
+    width: 350px;
+    height: 100px;
+}

@@ -1,0 +1,77 @@
+body {
+    background-color: black;
+    color: white;
+    font-size: 30px;
+}
+
+h1 {
+    font-size: 50px;
+    color: yellow;
+}
+
+h2 {
+    font-size: 40px;
+    color: yellow;
+}
+
+h2.p {
+    color: white;
+}
+
+div {
+    display: inline-block;
+    margin: 10px;
+}
+
+#color {
+    width: 300px;
+    height: 300px;
+    background-color: yellow;
+    border: groove 10px;
+}
+
+#degradient {
+    width: 300px;
+    height: 300px;
+    background-image: linear-gradient(to bottom, black, yellow, black);
+    border: groove 10px;
+}
+
+#image {
+    width: 300px;
+    height: 300px;
+    background-image: url("https://i.pinimg.com/736x/d5/45/2d/d5452d1b459b9fc8c3e524808ba7fb27.jpg");
+    border: groove 10px;
+    background-size: 300px 300px;
+    background-repeat: no-repeat;
+}
+
+a {
+    color: yellow;
+    margin: 10px;
+}
+
+.imgbox {
+    background-image: url("image/airplane.jpg");
+    width: 800px;
+    height: 300px;
+    display: flex;
+    border: groove 10px gray;
+}
+
+#img1 {
+    background-position: left top;
+}
+
+#img2 {
+    background-position: left center;
+}
+
+#img3 {
+    background-position: right bottom;
+}
+
+#img4 {
+    background-position: center center;
+}
+

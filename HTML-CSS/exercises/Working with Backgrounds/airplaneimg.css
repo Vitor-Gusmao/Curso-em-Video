@@ -1,0 +1,10 @@
+body {
+    background-image: url("image/airplane.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+a {
+    color: yellow;
+    font-size: 30px;
+}

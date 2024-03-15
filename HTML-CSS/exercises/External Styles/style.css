@@ -1,0 +1,25 @@
+body {
+    background-color: black;
+    color: white;
+    font-size: 30px;
+}
+
+h1.fire {
+    color: orangered;
+    font-size: 50px;
+}
+
+h2.fire {
+    color: orangered;
+    font-size: 40px;
+}
+
+h1.water {
+    color: aqua;
+    font-size: 50px;
+}
+
+h2.water {
+    color: aqua;
+    font-size: 40px;
+}

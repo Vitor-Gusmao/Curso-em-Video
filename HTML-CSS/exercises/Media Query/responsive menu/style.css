@@ -1,0 +1,115 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background-color: #1E3B4D;
+}
+
+
+header {
+    background-color: gold;
+    padding: 10px;
+}
+
+header > h1 {
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+    font-size: 50px;
+    color: white;
+}
+
+i {
+    visibility: hidden;
+    background-color: darkgoldenrod;
+    color: gold;
+    width: 92%;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+    margin-left: -10px;
+    margin-bottom: -12px;
+    padding-left: 43px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+i:hover {
+    background-color: goldenrod;
+    color: gold;
+}
+
+nav {
+    padding: 9px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 5px;
+    padding: 5px;
+    border-radius: 15%;
+    border: solid 1px black;
+}
+
+.fire {
+     background-color: red;
+     color: orange;
+}
+
+.fire:hover {
+     background-color: orange;
+     color: red;
+}
+
+.water {
+    background-color: royalblue;
+    color: aqua;
+}
+
+.water:hover {
+    background-color: aqua;
+    color: royalblue;
+}
+
+.earth {
+   background-color: brown;
+   color: goldenrod;
+}
+
+.earth:hover {
+   background-color: goldenrod;
+   color: brown;
+}
+
+.wind {
+    background-color: whitesmoke;
+    color: gray;
+}
+
+.wind:hover {
+    background-color: gray;
+    color: whitesmoke;
+}
+
+main > article > iframe {
+    width: 90vw;
+    height: 90vh;
+    margin: auto;
+    display: block;
+    border: solid 5px gold;
+}
+
+main > article > iframe::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}

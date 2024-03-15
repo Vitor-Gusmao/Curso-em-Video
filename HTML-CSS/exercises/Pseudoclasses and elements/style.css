@@ -1,0 +1,70 @@
+body {
+    background-color: black;
+    color: white;
+    font-size: 25px;
+}
+
+h1 {
+    font-size: 45px;
+    color: gold;
+}
+
+h2 {
+    font-size: 35px;
+    color: yellow;
+    
+}
+
+h3 {
+    color: yellow;
+    
+}
+
+
+ .hover:hover {
+    color: yellow;
+ }
+
+ .hidden > video {
+    display: none;
+ }
+
+ .hidden:hover > video {
+    display: block;
+ }
+   
+.chess {
+    color: green;
+}
+
+.chess:visited {
+    color: yellow;
+}
+
+.youtube {
+    color: red;
+}
+
+.youtube:active {
+    color: yellow;
+}
+
+.facebook {
+    color: blue;
+    text-decoration: none;
+}
+
+.facebook::after {
+    content: ' [ded]';
+    color: white;
+}
+
+.Orkut {
+    color: #EC1B90;
+    text-decoration: none;
+}
+
+.Orkut::before {
+    content: ' [ded]';
+    color: white;
+}

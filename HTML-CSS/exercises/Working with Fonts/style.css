@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Moirai+One&family=Noto+Sans+JP:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@font-face {
+    font-family: Nabla;
+    src: url('fonts/Nabla.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Death Note';
+    src: url('fonts/OldLondon.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+   background-color: black;
+    color: white;
+    font-size: 30px;
+}
+
+h1 {
+    font-size: 60px;
+    color: yellow;
+}
+
+h2 {
+    font-size: 50px;
+    color: yellow;
+}
+
+h3 {
+    font-size: 40px;
+    color: lightyellow;
+}
+
+p.jp {
+    font-size: 80px; 
+    font-family: 'Noto Sans JP', sans-serif;
+    margin-top: -0.5px;
+    
+}
+
+p.honk {
+     font-size: 80px; 
+     font-family: honk, system-ui;
+     margin-top: -10px;
+}
+
+p.mo {
+    font-size: 80px; 
+    font-family: 'Moirai One', system-ui;
+    margin-top: -80px;
+}
+
+p.nabla {
+    font-size: 80px; 
+    font-family: Nabla;
+    margin-top: -10px;
+}
+
+p.DN {
+    font-size: 80px; 
+    font-family: 'Death Note';
+    margin-top: -10px;
+}
+
+abbr.jp {
+    color: red;
+}
+
+img.jpflag {
+    display: inline;
+    width: 40px;
+}

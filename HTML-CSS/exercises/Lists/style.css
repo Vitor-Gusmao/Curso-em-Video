@@ -1,0 +1,30 @@
+body {
+    background-color: black;
+    color: white;
+    font-size: 30px;
+}
+
+
+
+h1 {
+    color: yellow;
+    font-size: 50px;
+}
+
+h2 {
+    color: yellow;
+}
+
+h3 {
+    color: yellow;
+}
+
+p {
+    color: red;
+    font-size: 40px;
+}
+
+dt{
+    color: yellow;
+    font-size: 35px;
+}

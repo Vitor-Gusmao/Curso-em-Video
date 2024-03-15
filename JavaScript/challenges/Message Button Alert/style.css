@@ -1,0 +1,37 @@
+body {
+    background-color: black;
+    color: white;
+    background-image: linear-gradient(to bottom, black, yellow);
+    height: 100vh;
+    width: 100VW;
+    overflow: hidden;
+}
+
+h1, p {
+    text-align: center;
+    font-size: 50px;
+}
+
+h1 {
+    color: yellow;
+}
+
+.buttons {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+}
+
+button {
+    height: 100px;
+    width: 150px;
+    font-size: 70px;
+    background-color: gold;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.459);
+}
+
+button:hover {
+    background-color: goldenrod;
+    padding: 5px;
+}

@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+body {
+    background-color: #040509;
+    color: white;
+    background-image: url(images/background.jpg);
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+}
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.iphone, iframe {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+}
+
+iframe {
+    width: 269px;
+    height: 471px;
+}
+
+.buttoncellphone {
+    position: absolute;
+    top: 91%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.buttonpc {
+    position: absolute;
+    top: 78%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.screen {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+  }
+
+  a {
+    font-size: 40px;
+    color: transparent;
+    text-decoration: none;
+ }
+
+ 
+ 

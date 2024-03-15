@@ -1,0 +1,20 @@
+body {
+    text-align: center;
+    background-color: black;
+    color: white;
+    
+}
+
+h1 {
+    display: inline;
+    color: yellow;
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+}

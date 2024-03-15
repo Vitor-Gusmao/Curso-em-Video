@@ -1,0 +1,89 @@
+:root {
+    --black: #151518;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-size: 30px;
+}
+
+.firsttable {
+    text-align: center;
+    background-color: gold;
+    color: black;
+    width: 1000px;
+    height: 400px;
+    margin: auto;
+}
+
+.firsttable > caption {
+    background-color: darkblue;
+    color: gold;
+    border: 2px solid gold;
+}
+
+.firsttable > tbody > tr > td {
+    border: 2px solid black;
+    background-color: var(--black);
+    color: goldenrod;
+}
+
+.secondtable {
+    text-align: center;
+    background-color: gold;
+    color: black;
+    width: 1000px;
+    height: 400px;
+    margin: auto;
+}
+
+.secondtable > caption {
+    background-color: darkblue;
+    color: gold;
+    border: 2px solid gold;
+}
+
+.secondtable > tbody > tr > td {
+    border: 2px solid black;
+    background-color: var(--black);
+    color: goldenrod;
+}
+
+.thirdtable {
+    text-align: center;
+    background-color: gold;
+    color: black;
+    width: 1000px;
+    height: 400px;
+    margin: auto;
+}
+
+.thirdtable > caption {
+    background-color: gray;
+    color: gold;
+    border: 2px solid gold;
+}
+
+.thirdtable > thead > tr > th {
+   background-color: darkblue;
+   color: gold;
+   border: 2px solid gold;
+}
+
+.thirdtable > tbody > tr > td {
+    border: 2px solid black;
+    background-color: var(--black);
+    color: goldenrod;
+}
+
+.thirdtable > tbody > tr > th {
+    background-color: darkblue;
+    color: gold;
+    border: 2px solid gold;
+ }
+
+ .name {
+    width: 400px;
+    text-align: justify;
+ }

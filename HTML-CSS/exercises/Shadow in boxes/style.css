@@ -1,0 +1,29 @@
+body {
+    background-image: linear-gradient(to bottom, black, darkblue, purple);
+    color: rgb(175, 32, 175);
+    font-size: 30px;
+}
+
+h1 {
+    font-size: 50px;
+    
+}
+
+h2 {
+    font-size: 40px;
+    
+}
+
+.box {
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/127/134/324/generic-space-scene-wallpaper-preview.jpg");
+    background-repeat: no-repeat;
+    border-style: groove;
+    background-size: cover;
+    border-width: 20px;
+    width: 100px;
+    height: 100px;
+    padding: 100px 350px 250px 250px;
+    margin: auto;
+    box-shadow: 10px 10px 10px black;
+}
+

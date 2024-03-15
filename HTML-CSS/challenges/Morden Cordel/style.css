@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+ }
+
+ body {
+    color: white;
+   background-color: black;
+   background-image: url(https://t3.ftcdn.net/jpg/03/21/67/10/360_F_321671060_5ZKoHIfu5SQDg0d4eWuTpeDopROkb5fW.jpg);
+   position: relative;
+}
+
+ header {
+    text-align: center;
+    width: 100%;
+    background-image: url(images/background005.png);
+    background-size: 100% 100%;
+    padding: 40px 0px 40px 0px;
+}
+
+header > h1 {
+    font-variant: small-caps;
+    font-family: 'Passion One', sans-serif;
+    font-size: 10vw;
+    padding: 10px;
+    color: gold;
+    text-shadow: 2px 2px 5px black;
+}
+
+header > p {
+    text-shadow: 2px 2px 5px black;
+    font-size: 25px;
+}
+
+  a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: gold;
+ }
+
+ #strophe2 > article {
+    background-image: url(images/background001.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100%;
+    padding: 40px 0px 40px 0px;
+    background-position:  center right;
+ }
+
+ article > p {
+    font-family: Sriracha, cursive;
+    font-size: 3.5vw;
+    left: 2%;
+    margin-top: 85px;
+   line-height: 2.3em;
+   margin-bottom: 85px;
+   margin-left: 50px;
+ }
+
+ #strophe2 > article > p {
+    background-color: rgba(0, 0, 0, 0.336);
+    width: 49vw;
+    line-height: 2em;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin: 0px;
+    color: gold;
+ }
+
+ #strophe4 > article > p {
+    background-color: rgba(0, 0, 0, 0.336);
+    width: 49vw;
+    line-height: 2em;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin: 0px;
+    color: gold;
+ }
+ 
+ #strophe4 > article {
+    background-image: url(images/background002.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center right;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    background-size: cover;
+ }
+ 
+
+footer {
+    background-color: black;
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+    background-image: url(images/background005.png);
+    background-size: 100% 100%;
+}
+

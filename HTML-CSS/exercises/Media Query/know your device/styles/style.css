@@ -1,0 +1,20 @@
+body {
+    background-color: black;
+    color: white;
+    height: 97.5vh;
+    width: 90vw;
+    background-image: url(images/background.webp);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+h1 {
+    color: yellow;
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+}
+
+.printback {
+    display: none;
+}

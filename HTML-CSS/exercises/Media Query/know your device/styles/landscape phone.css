@@ -1,0 +1,21 @@
+.lphone {
+    transform: rotate(90deg);
+    position: absolute;
+    top: 90%;
+    left: 85%; 
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+
+.pc, .print, .ptablet, .ltablet, .pphone {
+    display: none;
+}
+
+body {
+    background-image: url(../images/back-phone.jpg);
+}
+
+h1 {
+    font-size: 22px;
+}

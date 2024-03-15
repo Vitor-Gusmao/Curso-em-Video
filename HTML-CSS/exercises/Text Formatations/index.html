@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <meta charset="UTF-8">
+        <title>Text Formatations</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+
+    <body>
+       <h1 style="color: yellow; font-size: 50px;">Formatations:</h1>
+       <hr>
+       <h2><b>Bold</b> / <strong>Highlight</strong>:</h2>
+       <p>In this phrase we have a <b>term in bold</b> using &lt;b&gt;</p><p class="notsemantic">(not semantic).</p>
+       <p>In this  phrase, i have a <strong>Highlighted term</strong> using &lt;strong&gt;</p><p class="semantic">(semantic).</p>
+       <hr>
+       <h2><i>Italic</i> / <em>Emphasis</em>:</h2>
+       <p>In this phrase, we have a <i>italic term</i> using &lt;i&gt;</p><p class="notsemantic2">(not semantic).</p>
+       <p>In this phrase, we have a <em>emphased term</em> using &lt;em&gt;</p><p class="semantic2">(semantic).</p></p>
+       <hr>
+       <h2><mark>Marked text</mark>:</h2>
+       <p>We can create a <mark>marked text</mark> too using &lt;mark&gt;.</p>
+       <hr>
+       <h2><del>Deleted text</del></h2>
+       <p>We can mark <del>a text as deleted</del> using &lt;del&gt; for indicates he should be readed, but not considerated.</p>
+       <hr>
+       <h2><u>Underlined</u> / <ins>Inserted:</ins></h2>
+       <p>We can <u>underline a text</u> using &lt;u&gt;</p><p class="notsemantic3">(not semantic).</p>
+       <p>We can mark <ins>a text as inserted</ins> using &lt;ins&gt; for emphases and indicates that he got added later</p><p class="semantic3">(semantic).</p>
+       <hr>
+       <h2><sup>Superscript</sup> / <sub>Subscript</sub>:</h2>
+       <p>We can use superscript using &lt;sup&gt; for saying things like x<sup>2</sup>+3</p>
+       <p>We can use subscript using &lt;sub&gt; for saying things like H<sub>2</sub>O</p>
+       <hr>
+       <h2><code>Source code:</code></h2>
+       <p>The command <code>document.getElementById('test')</code> is written in JavaScript Language.<p class="code">(FOR USE IT &lt;code&gt;) </p>
+     <pre> 
+       <code>
+num = int(input('number'))
+if num % 2 == 0;
+  print (f'The number {num} is EVEN')
+else:       
+      print(f'The number {num} is ODD')
+    print{'End'}   
+       </code>
+    </pre> 
+    <p class="pre">(FOR USE IT &lt;pre&gt; OTHERWISE WILL BE INLINE)</p>
+    <hr>
+    <h2>Simple quotes:</h2>
+    <p>how would say my teacher: <q>the computer is a dumb very fast.</q></p><p class="q">(FOR USE IT &lt;q&gt;)</p>
+    <hr>
+    <h2>Complete quotes:</h2>
+    <p>According to Oppenheimer,</p>
+    <blockquote cite="https://www.imdb.com/name/nm0649185/quotes/">
+      <q>Both the man of science and the man of action live always at the edge of mystery, surrounded by it.</q></p>
+      <p style="color: red;">(FOR USE IT &lt;blockquote&gt;)</p>
+    </blockquote>
+    <hr>
+    <h2>Abreviations:</h2>
+    <p>im studying <abbr title="HyperText Markup Language">HTML</abbr> and<abbr title="Cascading Style Sheets"> CSS.</abbr> Im enjoying it!</p> <p class="abr">(FOR USE IT &lt;abbr&gt;) </p>
+    <hr>
+    <h2><bdo dir="ltr">Inverted text</bdo> / <bdo dir="rtl">Inverted text</bdo>:</h2>
+    <p><bdo dir="rtl">Hello World!</bdo></p> <p class="bdo">(FOR USE IT &lt;bdo&gt;) </p>
+    <hr>
+    <img src="https://e1.pxfuel.com/desktop-wallpaper/219/643/desktop-wallpaper-thats-all-folks.jpg" alt="That's all Folks!" style="margin-left: 430px;">
+  </body>
+    
+</html>

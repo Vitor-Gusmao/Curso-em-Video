@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+body {
+    background-color: #202124;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+}
+
+ul {
+    list-style: none;
+    columns: 2;
+}
+
+img {
+    height: 90px;
+    width: 90px;
+    margin: 20px;
+    display: block;
+    border-radius: 50%;
+    border: 2px  solid white;
+}
+
+.twitterimg {
+    position: absolute;
+    top: 65%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+
+img:hover {
+    padding: 1px;
+}
+
+.ifrscreen {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

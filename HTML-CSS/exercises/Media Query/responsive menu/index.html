@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Menu</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cellphone.css" media="screen and (orientation: portrait)">
+    <link rel="stylesheet" href="landscape.css" media="screen and (max-width: 932px) and (orientation: landscape)">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+</head>
+<body>
+<header>
+ <h1>Elements History</h1>
+ <i class="material-icons" onclick="clickMenu()">menu</i>
+ <menu id="items">
+ <nav>
+  <a class="fire" href="pages/fire.html" target="screen">Fire</a>  
+  <a class="water" href="pages/water.html" target="screen">Water</a>  
+  <a class="earth" href="pages/earth.html" target="screen">Earth</a>  
+  <a class="wind"  href="pages/wind.html" target="screen">Wind</a>  
+ </nav>
+</header>
+<main>
+    <article>
+        <iframe src="pages/fire.html" frameborder="1" name="screen"></iframe>
+    </article>
+</main>
+<script>
+  function clickMenu() {
+   if (items.style.display == 'block') {
+    items.style.display = 'none'
+   } else {
+     items.style.display = 'block'
+   }
+  } 
+</script>    
+</body>
+</html>

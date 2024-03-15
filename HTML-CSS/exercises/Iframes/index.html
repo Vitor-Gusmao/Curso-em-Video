@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iframe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <h1>Iframe</h1>
+ <p>Iframe is used to load links on your own page.</p>
+ <span style="color:  red;">"&lt;iframe src="link" frameborder="size of the border"&gt;&lt;/iframe&gt;"</span>
+ <hr>
+<h1>Testing iframe</h1>
+<iframe src="https://www.365chess.com/play_computer_online.php" frameborder="0"></iframe> 
+<hr>
+<h1>Testing a index iframe</h1>
+<iframe src="../../../homepage/index.html" frameborder="1"></iframe>
+<hr>
+<h1>How to load a iframe on a existing ancor</h1>
+<p>for do that, we need to set the command "name" in our iframe, then when we make our ancor just type "target="(name of the iframe)" and will works.</p>
+<h2>Example:</h2>
+<div>    
+<nav><a href="../../challenges/Morden Cordel/index.html" target="mc">CLICK HERE TO SEE Mordern Cordel</a></nav>
+<br>
+<iframe name="mc" frameborder="0"></iframe>
+</div>   
+<div>
+<nav><a href="../../challenges/Android Curiosities/index.html" target="ac">CLICK HERE TO SEE Android Curiosities</a></nav>  
+<br>
+<iframe src="" name="ac" frameborder="0"></iframe>
+</div>
+<hr>
+<h1>Creating content on iframe using srcdoc</h1>
+<p>We can create our own conten inside of an iframe, like a html using srcdoc, for that we need to delete the "src" and create "srcdoc" and inside of him, insert the html commands.</p>
+<h2>Example:</h2>
+<div style="background-color: white; width: 1000px; height: 600px;">
+<iframe srcdoc="<h1><u>HELLO WORLD!</u></h1><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab beatae eos omnis aliquam officiis praesentium quas. Deleniti laborum iure perferendis dignissimos dolorem ipsum! Vitae consectetur, atque facere earum perspiciatis molestiae.    
+</p>" frameborder="0"></iframe>
+</div>
+<hr>
+<h1>How to block iframe inputs using sandbox</h1>
+<p>for we block something on iframe like a singup, we need  to use the command " sandbox="sandbox" " or,  we can use "allow" for turn on specific things.</p>
+<div style="columns: 1;">
+<ul>
+ <li>"allow-forms"	Allows form submission</li>
+ <li>"allow-modals"	Allows to open modal windows</li> 
+ <li>"allow-orientation-lock"	Allows to lock the screen orientation</li>
+ <li>"allow-pointer-lock"	Allows to use the Pointer Lock API</li>
+ <li>"allow-popups"	Allows popups</li>
+ <li>"allow-popups-to-escape-sandbox"	Allows popups to open new windows without inheriting the sandboxing</li>
+ <li>"allow-presentation"	Allows to start a presentation session</li>
+ <li>"allow-same-origin"	Allows the iframe content to be treated as being from the same origin</li>
+ <li>"allow-scripts	Allows" to run scripts</li>
+ <li>"allow-top-navigation"	Allows the iframe content to navigate its top-level browsing context</li>
+ <li>"allow-top-navigation-by-user-activation"	Allows the iframe content to navigate its top-level browsing context, but only if initiated by user</li> 
+</ul>
+</div>
+<h2>Example:</h2>
+  <h3>With sandbox</h3>
+<div style="background-color: white; width: 350px; height: 100px;">
+  <iframe class="ifwork" src="register/index.html" frameborder="0" sandbox="sandbox"></iframe>  
+</div>
+<h3>Without sandbox</h3>
+<div  style="background-color: white; width: 350px; height: 100px;">
+    <iframe class="ifnwork" src="register/index.html" frameborder="0"></iframe>
+</div>
+</body>
+</html>

@@ -1,0 +1,61 @@
+:root {
+    --black: #1F2021; 
+    --darkblack: #101111; 
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-size: 30px;
+}
+
+span {
+    color: red;
+}
+
+h1, h2, h3, h4, h5, h6, .title {
+    color: yellow;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+}
+
+.title > p {
+    margin-top: -30px;
+}
+
+.block {
+    background-color: var(--darkblack);
+    border: solid 5px yellow;
+    color: goldenrod;
+    width: 400px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: inline-block;
+}
+
+input {
+    font-size: 20px;
+}
+
+.textbox, .numberbox, .telbox, .datebox, .monthbox, .textareabox {
+    border: solid gold 5px;
+    background-color: var(--black);
+    color: white;
+}
+
+.textareabox {
+    margin-top: 10px;
+}
+
+.submit:hover {
+    background-color: gold;
+    color: brown;
+}

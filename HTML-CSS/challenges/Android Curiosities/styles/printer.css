@@ -1,0 +1,38 @@
+
+header, footer, h1, h2, h3 {
+    text-align: center;
+}
+
+header > nav {
+    display: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+iframe {
+    display: none;
+}
+
+ul {
+    columns: 2;
+}
+
+.smallimg {
+    margin: auto;
+    display: block;
+}
+
+#learnmore > br {
+    display: none;
+}
+
+#end {
+    margin-top: -20px;
+}
+
+#NewMascot {
+    margin-top: 50px;
+}

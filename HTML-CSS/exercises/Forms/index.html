@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <h1>Forms</h1>
+ <hr>
+ <p>For create a form we need the tag "&lt;form&gt;" and an "action" redirecting to your form archive, put a tag "&lt;label&gt;" in our headers and in the command "for" put the name of your id,  and use the command "input" after our headers based on ur form.</p>
+<p><span>(put an "i" in beggining of every id)</span></p>
+<h2>Examples:</h2>
+ <div class="block">
+ <form action="register.html" autocomplete="off">
+  <p>Text-box:</p> 
+  <p> <label for="iname">Name:</label> <input class="textbox" type="text" name="name" id="iname"></p>
+   <p><label for="ilastname">Last Name:</label> <input class="textbox" type="text" name="lastname" id="ilastname"></p>
+   <p><input class="submit" type="submit" value="Submit"></p>
+ </form>
+</div>
+<div class="block">
+  <form action="register.html" autocomplete="off">
+    <p>Number-box:</p>
+    <p> <label for="itel">Cellphone Number:</label> <input class="telbox" type="tel" name="tel" id="itel" pattern="^[0-9]{4}-[0-9]{4}$"></p>
+    <p><label for="iage">Age:</label> <input class="numberbox" type="number" name="age" id="iage" min="1" max="99"></p>
+    <p><input class="submit" type="submit" value="Submit"></p>
+  </form>
+ </div>
+ <div class="block">
+  <form action="register.html" autocomplete="off">
+    <p>Date&Month:</p>
+    <p> <label for="idate">Date:</label> <input class="datebox" type="date" name="date" id="idate"></p>
+    <p><label for="imonth">Month:</label> <input class="monthbox" type="month" name="month" id="imonth"></p>
+    <p><input class="submit" type="submit" value="Submit"></p>
+  </form>
+ </div>
+ <div class="block">
+  <p>Check-box:</p>
+  <form action="register.html" autocomplete="off">
+  <p>
+    <input type="checkbox" class="checkbox" name="swords" id="iswords"> <label for="iswords"> Swords</label>
+   <input type="checkbox" class="checkbox" name="guns" id="iguns"> <label for="iguns"> Guns</label>
+  </p>
+  <p><input class="submit" type="submit" value="Submit"></p>
+ </form>
+ </div>
+ <div class="block">
+  <p>radio:</p>
+  <form action="register.html" autocomplete="off">
+  <p>
+    <input type="radio" class="radiobox" name="sex" id="imale"> <label for="imale">Male</label>
+    <input type="radio" class="radiobox" name="sex" id="ifemale"> <label for="ifemale">Female</label>
+  </p>
+  <p><input class="submit" type="submit" value="Submit"></p>
+</form>
+ </div>
+ <div class="block">
+  <p>color:</p>
+  <form action="register.html" autocomplete="off">
+  <p>
+    <label for="icolor">Select your color:</label>
+    <input class="colorblock" type="color" name="color" id="icolor">
+    <label for="iyellow">Yellow:</label>
+    <input type="color" name="yellow" id="iyellow" value="#ffff00">
+  </p>
+  <p><input class="submit" type="submit" value="Submit"></p>
+</form>
+ </div>
+ <div class="block">
+  <p>range:</p>
+  <form action="register.html" autocomplete="off">
+  <p>
+    <label for="irange">Did you like it?</label>
+    <input type="range" class="rangebox" name="range" id="irange">
+  </p>
+  <p><input class="submit" type="submit" value="Submit"></p>
+</form>
+ </div>
+ <div class="block">
+  <form action="register.html" autocomplete="off">
+  <p>file:</p>
+  <p>
+    <label for="ifile">Select a file:</label>
+    <input type="file" name="file" id="ifile">
+  </p>
+  <p><input type="submit" name="submit" id="isubmit" value="Submit"></p>
+</form>
+ </div>
+ <hr>
+ <div class="title">
+ <h1>Formulary submit methods</h1>
+ <p>"GET and PUSH"</p>
+</div>
+<p>Methods are used for say if the submit is going to appear in the url, or if its gonna be hidden.</p>
+<p><span>(IN THE METHOD "POST", YOU STILL CAN SEE THE SUBMIT IN INSPECT -> NETWORK, FOR REALLY HIDE IT, <br> YOU NEED TO ENCRYPTE IT WITH HTTPS OR OTHER THINGS.)</span></p>
+<h2>GET <span>(show)</span>:</h2>
+<div class="block">
+<form action="register.html" method="GET" autocomplete="off">
+    <p> <label for="iname">Name:</label> <input class="textbox" type="text" name="name" id="iname"></p>
+    <p><label for="ilastname">Last Name:</label> <input class="textbox" type="text" name="lastname" id="ilastname"></p>
+    <p><input class="submit" type="submit" value="Submit"></p>
+  </form>
+</div>
+ <h2>POST <span>(hide)</span>:</h2>
+ <div class="block">
+ <form action="register.html" method="POST" autocomplete="off">
+    <p> <label for="iname">Name:</label> <input class="textbox" type="text" name="name" id="iname"></p>
+    <p><label for="ilastname">Last Name:</label> <input class="textbox" type="text" name="lastname" id="ilastname"></p>
+    <p><input class="submit" type="submit" value="Submit"></p>
+  </form>
+</div>
+<hr>
+<h1>Input Properties</h1>
+<h2>Required:</h2>
+<p>If u want to force the user to dont leave blank the camp, use the command "required" in the our input</p>
+<h3>Example:</h3>
+<div class="block">
+    <form action="register.html" method="POST" autocomplete="off">
+       <p> <label for="iname">Name:</label> <input class="textbox" type="text" name="name" id="iname" required></p>
+       <p><label for="ilastname">Last Name:</label> <input class="textbox" type="text" name="lastname" id="ilastname" required></p>
+       <p><input class="submit" type="submit" value="Submit"></p>
+     </form>
+   </div>
+<h2>min and max length:</h2>
+<p>"minlength" and "maxlength" are used for set the max amount of letters u can use, being "min" u cannot submit with that min of letters, and max u cannot submit with that amount of letters.</p>
+<p><span>MUST HAVE "REQUIRED" TO WORK</span></p>
+<p><span>FOR USE IT FOR NUMBERS JUST REMOVE "length"</span></p>
+<h3>Letters Example: <span>(min = 5 max = 10)</span>: </h3>
+<div class="block">
+    <form action="register.html" method="POST" autocomplete="off">
+       <p> <label for="iname">Name:</label> <input class="textbox" type="text" name="name" id="iname" required minlength="5" maxlength="10"></p>
+       <p><label for="ilastname">Last Name:</label> <input class="textbox" type="text" name="lastname" id="ilastname" required minlength="5" maxlength="10"></p>
+       <p><input class="submit" type="submit" value="Submit"></p>
+     </form>
+   </div>
+<h3>Numbers Example: <span>(min = 5 max = 10)</span>: </h3>
+<div class="block">
+    <form action="register.html" method="POST" autocomplete="off">
+       <p> <label for="iname">Age:</label> <input class="numberbox" type="number" name="age" id="iage" required min="5" max="10"></p>
+       <p><label for="ilastname"> Trophies:</label> <input class="numberbox" type="number" name="trophies" id="itrophies" required min="5" max="10"></p>
+       <p><input class="submit" type="submit" value="Submit"></p>
+     </form>
+   </div>
+   <h2>Placeholder:</h2>
+   <p>with placeholder you can create a shadow text in the inputbox.</p>
+   <h3>Example:</h3>
+   <div class="block">
+    <form action="register.html" autocomplete="off">
+      <p> <label for="iname">Name:</label> <input class="textbox" type="text" name="name" id="iname" placeholder="Ex: Fulano"></p>
+      <p><label for="ilastname">Last Name:</label> <input class="textbox" type="text" name="lastname" id="ilastname" placeholder="Ex: da Silva"></p>
+      <p><input class="submit" type="submit" value="Submit"></p>
+    </form>
+   </div>
+   <hr>
+   <h1>Controls without inputs</h1>
+   <p>there are some form controls that dont need input.</p>
+   <h2>Example:</h2>
+   <div class="block">
+    <p>
+      <form action="register.html">
+      <label for="icountry">Select your Country</label>
+      <select name="country" id="icountry">
+        <option value="JP">Japan</option>
+        <option value="BR">Brazil</option>
+        <option value="USA">America</option>
+        <option value="DE">German</option>
+      </select>
+     <p> <input class="submit" type="submit" value="submit"></p>
+    </p>
+  </form>
+   </div>
+   <p>this was made using "&lt;select&gt;" and "&lt;option&gt;", we can create categorys too using "&lt;optgroup&gt;"</p>
+   <h2>Example:</h2>
+   <div class="block">
+   <form action="register.html">
+    <label for="iweapon">Choose your weapon:</label>
+    <select name="weapon" id="iweapon">
+    <optgroup label="Swords">
+    <option value="LS">Longsword</option>
+    <option value="GS">Greatsword</option>
+    </optgroup>
+    <optgroup label="Guns">
+     <option value="M4">M4A1</option>
+     <option value="AK">AK47</option>
+    </optgroup>
+  </select>
+  <p><input class="submit" type="submit" value="Submit"></p>
+   </form>
+  </div>
+  <p>Its possible to create a select list option in our text-box using "&lt;datalist&gt;" and "&lt;option&gt;"</p>
+  <h2>Example:</h2>
+  <div class="block">
+  <form action="register.html" autocomplete="off">
+    <p>
+      <label for="iname">Name:</label>
+      <input type="text" class="textbox" name="name" id="iname" list="namelist" placeholder="Fulano">
+      <datalist id="namelist">
+      <option value="Lucas"></option>
+      <option value="João"></option>
+      <option value="Luis"></option>
+      <option value="Pedro"></option>
+      </datalist>
+    </p>
+    <p><input type="submit" class="submit" value="Submit"></p>
+  </form>
+  </div>
+  <p>And last but not least, we can create textareas too, and make it like its a form without input.</p>
+  <div class="block">
+    <form action="register.html" method="post">
+      <p>
+        <label for="imessage">Message:</label><br>
+        <textarea class="textareabox" name="message" id="imessage" cols="30" rows="10"></textarea>
+      </p>
+      <p><input type="submit" class="submit" value="Submit"></p>
+    </form>
+  </div>
+  <hr>
+  <div class="title">
+    <h1>oninput and output</h1>
+    <p><span>JAVASCRIPT STUFF WARNING</span></p>
+  </div>
+  <p>output is used in forms for do things with numbers, and display them on your screen, like addition. we insert his command in ours input.</p>
+  <h2>Examples:</h2>
+  <div class="block">
+  <form action="register.html">
+    <p>Math</p>
+    <p>
+      <label for="in1">Number:</label>
+      <input type="number" class="numberbox" name="n1" id="in1" required oninput="iaddition.innerHTML = Number(in1.value) + Number(in2.value)">
+      <p>+</p>
+      <label for="in2">Number:</label>
+      <input type="number" class="numberbox" name="n2" id="in2" required oninput="iaddition.innerHTML = Number(in1.value) + Number(in2.value)">
+    </p>
+    <p>
+      <label for="iaddition">Result:</label>
+      <output name="addition" id="iaddition">0</output>
+    </p>
+    <p>
+      <input class="submit" type="submit" value="Submit">
+    </p>
+  </form>
+  </div>
+  <div class="block">
+    <form action="register.html">
+     <p>Display numbers</p>
+      <p>
+        <label for="ibar">Bar:</label>
+        <input type="range" name="bar" id="ibar" min="0" max="100" value="50" oninput="ival.innerHTML = Number(ibar.value)">
+        <output id="ival">50</output>
+      </p>
+      <p>
+        <input type="submit" class="submit" value="Submit">
+      </p>
+    </form>
+  </div>
+  </body> 
+</html>

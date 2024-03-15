@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Box Models</title>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+
+    <body>
+    <h1>Box Models</h1>
+    <p style="color: red;">"Every visible element is a box"</p>
+    <hr>
+    <h2>Units:</h2>
+    <p>We can change the size of the things that are comming in this article using the units:</p>
+    <ul>
+        <li>px - The height of the element will be measured in pixels.</li>
+        <li>em - The height of the element will be a multiple of the font size of the element.</li>
+        <li>% - The height of the element will be a percentage of the height of its parent element.</li>
+        <li>vw - The height of the element will be a percentage of the width of the viewport.</li>
+        <li>vh - The height of the element will be a percentage of the height of the viewport.</li>
+        <li>rem - The height of the element will be a multiple of the font size of the root element.</li>
+    </ul>
+    <hr>
+    <h2>Height and Width:</h2>
+    <p>we can change the height and width of a box using the css command "height" and "width".</p>
+    <h3>Example:</h3>
+    <div class="smallbox"></div>
+    <br>
+    <div class="bigbox"></div>
+    <hr>
+    <h2>Border</h2>
+    <p>We can border a box using the css commands:</p>
+    <ul> 
+        <li>"border-width" for set the width of the border</li>
+        <li>"border-style" for set the border styles, they are solid, dashed,dotted,double,groove,ridge,inset and outset,</li>
+        <li>"border-color" for change the color of the border</li>
+        <li>"border-radius" for change the structure of the form, like instead of the border be a square, you can make it a circle or a triangle.</li>
+        <li>"padding(top, left, right and bottom.)" generate a space around an element's content, inside of any defined borders.</li>
+        <li>"margin(top, left, right and bottom.)" The margin property sets the margins for an element.</li>
+        <li>"outline-style" set a style for the line outside the borders. the styles are: none, hidden, dotted, dashed, solid, double, groove, ridge, inset, outset, initial, inherit.</li>
+        <li>"outline-width" set the size of the line outside the border.</li>
+        <li>"outline-color" set the color of the line outside the border.</li> 
+        <li>"outline-offset" property adds space between the outline and the edge or border of an element. The space between an element and its outline is transparent.</li> 
+    </ul>
+    <img src="box-model.png" alt="box model" style="display: flex; width: 700px;">
+    <h3>little examples of boxes:</h3>
+    <div class="bbox"></div>
+    <div class="abox"></div>
+    <div class="cbox"></div>
+    <hr>
+    <h2>Types of boxes:</h2>
+    <h3>box-level:</h3>
+   <p>box-level is the type of box that when u use it, its going to break a line, and will occupy the entire line.</p>
+   <h4>list of box-levels:</h4> 
+   <ul>
+    <li>&lt;div&gt; <span style="color: red;">(divisions)</span></li>
+    <li>&lt;h1-h6&gt; <span style="color: red;">(titles)</span></li>
+    <li>&lt;p&gt; <span style="color: red;">(oaragraphs)</span></li>
+    <li>&lt;main&gt; <span style="color: red;">(main content of the document)</span></li>
+    <li>&lt;header&gt; <span style="color: red;">(top of the website)</span></li>
+    <li>&lt;nav&gt; <span style="color: red;">(set of navigation links.)</span></li>
+    <li>&lt;article&gt; <span style="color: red;">(article)</span></li>
+    <li>&lt;aside&gt; <span style="color: red;">(content aside from the content it is placed in.)</span></li>
+    <li>&lt;footer&gt; <span style="color: red;">(bottom of the website)</span></li>
+    <li>&lt;form&gt;  <span style="color: red;">(form)</span></li>
+    <li>&lt;video&gt; <span style="color: red;">(video)</span></li>
+   </ul> 
+   <h5>Example:</h5>
+    <p>Hello World<div class="blv">div</div></p>
+    <h3>inline-level</h3>
+    <p>inline-level is the type of box that when u use it, its going to keep in the same line.</p>
+    <h4>list of box-levels:</h4> 
+    <ul>
+     <li>&lt;span&gt; <span style="color: red;">(span)</span></li>
+     <li>&lt;a&gt; <span style="color: red;">(ancor)</span></li>
+     <li>&lt;code&gt; <span style="color: red;">(code)</span></li>
+     <li>&lt;small&gt; <span style="color: red;">(small)</span></li>
+     <li>&lt;strong&gt; <span style="color: red;">(highlight)</span></li>
+     <li>&lt;em&gt; <span style="color: red;">(Mark up emphasized text)</span></li>
+     <li>&lt;sup&gt; - &lt;sub&gt; <span style="color: red;">(Superscript text)</span></li>
+     <li>&lt;label&gt; <span style="color: red;">(Subscript text)</span></li>
+     <li>&lt;button&gt; <span style="color: red;">( defines a label for several elements)</span></li>
+     <li>&lt;input&gt; <span style="color: red;">( field where the user can enter data.)</span></li>
+     <li>&lt;select&gt; <span style="color: red;">(create a drop-down list)</span></li>
+    </ul> 
+    <h5>Example:</h5>
+    <p>Hello World <span class="inlv">span</span></p>
+    <hr>
+    <h2>Custom border:</h2>
+    <p>we can insert our own borders too for use in our boxes using the css command "border-image-source" "border-image-slice" "border-image-repeat"</p>
+    <h3>Example:</h3>
+    <div class="cb">Hello World</div>
+    <hr>
+    <img src="https://e1.pxfuel.com/desktop-wallpaper/219/643/desktop-wallpaper-thats-all-folks.jpg" alt="That's all Folks!" style="margin: auto; display: block;">
+</body>
+    
+</html>

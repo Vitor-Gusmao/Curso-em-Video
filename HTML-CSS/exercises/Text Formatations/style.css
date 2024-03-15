@@ -1,0 +1,89 @@
+
+body {
+    background-color: black;
+    color: white;
+    font-size: 30px;
+}
+
+p.semantic {
+    color: red;
+    margin-left: 700px;
+    margin-top: -63px;
+}
+
+p.notsemantic {
+    color: red;
+    margin-left: 610px;
+    margin-top: -63px;
+}
+
+h2 {
+    color: yellow;
+    font-size: 40px;
+}
+
+p.notsemantic2 {
+    color: red;
+    margin-left: 560px;
+    margin-top: -63px;
+}
+
+p.semantic2 {
+    color: red;
+    margin-left: 650px;
+    margin-top: -63px;
+}
+
+mark{
+    color: black;
+    background-color: yellow;
+}
+
+p.notsemantic3 {
+    color: red;
+    margin-left: 420px;
+    margin-top: -63px;
+}
+
+p.semantic3 {
+    color: red;
+    margin-left: 1130px;
+    margin-top: -63px;
+}
+
+p.code {
+    color: red;
+    margin-left: 1120px;
+    margin-top: -63px;
+}
+
+p.pre {
+    color: red;
+}
+
+p.q {
+    color: red;
+    margin-left: 780px;
+    margin-top: -63px;
+}
+
+blockquote {
+    font-size: 25px;
+}
+
+abbr {
+   color: yellow;
+}
+
+p.abr {
+    color: red;
+    margin-left: 550px;
+    margin-top: -63px;
+}
+    
+p.bdo {
+    color: red;
+    margin-left: 170px;
+    margin-top: -63px;
+}
+    

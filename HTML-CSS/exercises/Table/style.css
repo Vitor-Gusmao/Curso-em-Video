@@ -1,0 +1,219 @@
+
+:root {
+    --black: #151518;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-size: 30px;
+}
+
+ h1 {
+    font-size: 50px;
+    color: yellow;
+ }
+
+ h2 {
+    color: yellow;
+    font-size: 40px;
+ }
+ 
+ .trft > td {
+    border: gold solid 5px;
+    padding: 5px;
+    width: 400px;
+    text-align: center;
+ }
+
+.tableft {
+    margin-left: 10px;
+}
+
+ .trft {
+    background-color: var(--black);
+    color: goldenrod;
+ }
+
+.anatomybigt, .scope {
+    border: gold solid 10px;
+    color: gold;
+    background-color: var(--black);
+    width: 500px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.scope {
+    text-align: center;
+}
+
+.scope > p {
+    font-size: 35px;
+}
+
+.anatomybigt > ol {
+    margin-top: -15px;
+    display: inline-block;
+}
+
+.anatomybigt >  h3 {
+    text-align: center;
+}
+
+.anatomybigt > ol, ul {
+    list-style-type: none;
+}
+
+  ul > li {
+     margin-left: -40px;
+}
+
+ ul {
+    margin-top: 10px;
+}
+
+.caption {
+    margin: 0px 248px 0px 145px;
+}   
+
+.hierarchy {
+    border: gold solid 10px;
+    color: goldenrod;
+    background-color: var(--black);
+    width: 400px;
+    margin-left: 10px;
+}
+
+.hierarchy > ol {
+    margin-left: 20px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   font-size: 35px;
+}
+  
+img {
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    margin-bottom: -20px;
+}
+
+.emoji {
+    font-size: 60px;
+    border: 5px solid gold;
+    background-color: var(--black);
+    text-align: center;
+}
+
+.thdbig, .tmdbig, .tftd {
+   color: goldenrod;
+   border: 5px solid gold;
+   padding: 20px;
+   width: 500px;
+   text-align: center;
+   background-color: var(--black);
+} 
+
+.thdbig, .thft, .tfth {
+    background-color: gray;
+    color: goldenrod;
+    border: 5px solid gold;
+    font-weight: bold;
+}
+
+.tcaption {
+    color: goldenrod;
+    background-color: gold;
+    border: solid 3px gray;
+    font-weight: bold;
+}
+
+.stripedtable {
+    background-color: white;
+    color: black;
+    width: 1000px;
+    height: 100px;
+    text-align: center;
+}
+
+.stripedtable > caption {
+    background-color: gray;
+    color: black;
+}
+
+.stripedtable > thead, tfoot > tr > th {
+    background-color: var(--black);
+    color: white;
+}
+
+.stripedtable > tbody > tr > td {
+    border: var(--black) solid 5px;
+}
+
+.stripedtable > tbody > tr:nth-child(2n) {
+    background-color: var(--black);
+    color: white;
+}
+
+.tchess {
+    width: 400px;
+    height: 1000px;
+    text-align: center;
+    background-color: white;
+    font-size: 40px;
+}
+
+.tchess > caption {
+    background: lightgreen;
+    color: green;
+}
+
+.tchess > tfoot > tr > th {
+    background-color: green;
+}
+
+.tchess > thead > tr > th {
+    background-color: green;
+    position: sticky;
+    top: -1px;
+}
+
+.tchess > tbody > tr > td {
+   background-color: var(--black);
+   color: green;
+}
+
+.trpg {
+    width: 1000px;
+    height: 100px;
+    text-align: center;
+}
+
+.trpg > tbody > tr > td {
+    background-color: var(--black);
+    border: 2px solid white;
+}
+
+.hight {
+    background-color: #FFD700;
+    width: 1000px;
+    height: 100px;
+    text-align: center;
+}
+
+.hight > caption {
+    background-color: #FFD700;
+    color: #DAA520;
+    border: 3px solid gray;
+}
+
+.hightth {
+    background-color: gray;
+    color: goldenrod;
+}
+
+.highttd {
+    background-color: #151518;
+}

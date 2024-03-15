@@ -1,0 +1,24 @@
+body {
+    background-color: black;
+    color: white;
+    font-size: 30px;
+}
+
+h1 {
+    font-size: 50px;
+    
+}
+
+h2 {
+    font-size: 40px;
+    
+}
+
+:root {
+    --yellow: rgb(255,255,0);
+    --border: solid 10px blue; 
+}
+.var {
+    color: var(--yellow);
+    border: var(--border);
+}

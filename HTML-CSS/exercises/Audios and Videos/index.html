@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Audios and Videos</title>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+
+    <body>
+        <h1>Playing Audios:</h1>
+        <p>Lets learn how to play audios in HTML5.</p>
+        <audio preload="metadata" controls loop>
+           <source src="media/grillbys.mp3" type="audio/mpeg">
+           <p>Sadly your browser can't play audio. <a href="media/grillbys.mp3">Click here for download Grilbys song</a> and <a href="media/zelda.mp3"> here for download zelda song.</a></p>
+        </audio>
+        <br>
+        <audio preload="metadata" controls loop>
+            <source src="media/zelda.mp3" type="audio/mpeg">
+            <p>Sadly your browser can't play audio. <a href="media/grillbys.mp3">Click here for download Grilbys song</a> and <a href="media/zelda.mp3"> here for download zelda song.</a></p>
+         </audio>
+        <hr>
+        <h1>Inserting hosted videos locally:</h1>
+        <p>This video is hosted in my own server.</p>
+        <video controls poster="images/cat.jpg"  width="600px">
+            <source src="media/cat.mp4" type="video/mp4">
+            <p>Your browser dont have compatibility with video reprodution</p>
+        </video>
+        <hr>
+        <h1>Inserting videos from YouTube:</h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/qzKaTmjNalY?si=-2zCGP0JC8e5b-CW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </body>
+
+</html>

@@ -1,0 +1,15 @@
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+body {
+    background-image: linear-gradient(to bottom, whitesmoke, gray);
+    height: 120vh;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(117, 116, 116);
+}
+

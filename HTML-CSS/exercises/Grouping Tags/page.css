@@ -1,0 +1,64 @@
+body {
+    background-color: darkblue;
+    color: white;
+    font-size: 30px;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+}
+
+header > h1 {
+    background: yellow;
+    border-style: groove;
+    font-size: arial, sans-serif;
+    color: darkblue;
+    border-width: 20px;
+}
+
+#notices {
+    background-color: darkslateblue;
+    padding-top: 30px;
+    border-style: double;
+    border-width: 20px;
+    
+}
+
+#videogames {
+    background-color: red;
+    color: lightgoldenrodyellow;
+   padding-top: 15px;
+   border-style: double;
+    border-width: 20px;
+}
+
+main {
+    border-style: double;
+    border-width: 10px;
+}
+
+footer > h2 {
+   display: inline;
+}
+
+nav {
+    display: inline;
+}
+
+a {
+    color: yellow;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: pink;
+}

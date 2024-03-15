@@ -1,0 +1,107 @@
+body {
+    background-color: black;
+    color: white;
+    font-size: 25px;
+}
+
+h1 {
+    font-size: 50px;
+    color: yellow;
+}
+
+h2 {
+    font-size: 40px;
+    color: yellow;
+}
+
+h3 {
+    color: yellow;
+    font-size: 30px;
+}
+
+h4 {
+    color: yellow;
+    font-size: 25px;
+}
+
+h5 {
+    color: yellow;
+    font-size: 20px;
+}
+
+.smallbox {
+    background-color: gray; 
+    width: 100px; 
+    height: 100px; 
+    
+}
+
+.bigbox {
+    background-color: gray; 
+    width: 150px; 
+    height: 150px; 
+    
+}
+
+div {
+    text-align: center;
+}
+
+.bbox {
+    background-color: gray;
+    width: 100px;
+    height: 100px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: white;
+    display: inline-flex;
+}
+
+.abox {
+    background-color: gray;
+    width: 100px;
+    height: 100px;
+    border-width: 10px;
+    border-style: ridge;
+    border-color: white;
+    border-radius: 100px;
+    display: inline-flex;
+    padding-top: 50px;
+}    
+
+.cbox {
+    background-color: gray;
+    width: 100px;
+    height: 100px;
+    border-width: 10px;
+    border-color: red;
+    border-radius: 10px;
+    display: inline-flex;
+    outline-style: solid;
+    border-style: ridge;
+    outline-width: 15px;
+    outline-color: blue;
+    margin-left: 30px ;
+    outline-offset: 10px;
+}    
+
+.blv {    
+    border: blue;
+    border-style: solid;
+    background-color: darkgreen;
+}
+    
+.inlv {    
+    border: red;
+    border-style: dotted;
+    background-color: orange;
+}
+    
+.cb { 
+    border: 10px solid;
+    border-image-source: url(border.png);
+    border-image-repeat: repeat;
+    border-image-slice: 81;
+    background-color: darkred;
+    color: black;
+}
